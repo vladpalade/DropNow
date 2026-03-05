@@ -4,7 +4,7 @@ DropNow is an automated market intelligence pipeline designed to solve a complex
 
 Instead of relying on manual research, this application autonomously scrapes B2B supplier data, evaluates real customer sentiment using a custom-built Deep Learning model trained from scratch, and cross-references supply costs with local retail markets to calculate exact, unit-normalized profit margins.
 
-![Product Analysis Dashboard](assets/analysis_dashboard.png)
+![Product Analysis Dashboard]((https://raw.githubusercontent.com/vladpalade/DropNow/main/assets/analysis_dashboard.png))
 
 ## Key Features & Business Logic
 
@@ -13,7 +13,7 @@ Instead of relying on manual research, this application autonomously scrapes B2B
 * **Unit-Price Normalization (Apples-to-Apples):** Automatically detects and extracts product quantities from unstructured text using advanced regular expressions (e.g., standardizing a "50-pack" vs. "Set of 10"). It mathematically scales supplier bulk prices against competitor retail prices to compute the absolute unit profit.
 * **Market Arbitrage Intelligence:** Instantly searches the local target market (eMAG), filters out sponsored or anomalous listings, and establishes a realistic retail baseline to calculate precise net profit margins for the entire imported package.
 
-![User Portfolio & History](assets/portfolio_history.png)
+![User Portfolio & History](https://raw.githubusercontent.com/vladpalade/DropNow/main/assets/portofolio_history.png)
 
 ## Technology Stack
 
